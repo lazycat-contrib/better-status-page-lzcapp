@@ -1,0 +1,22 @@
+params:
+  - id: admin_email
+    type: string
+    name: "Admin Email"
+    description: "Email for the first administrator account created in the setup wizard"
+    default_value: "admin@lazycat.local"
+    optional: false
+  - id: admin_password
+    type: secret
+    name: "Admin Password"
+    description: "password for the first administrator account"
+    default_value: "$random(len=20)"
+    optional: false
+
+locales:
+  zh:
+    admin_email:
+      name: "管理员邮箱"
+      description: "首次设置向导创建的管理员账号邮箱"
+    admin_password:
+      name: "管理员密码"
+      description: "首次设置向导创建的管理员账号密码，部署时自动生成"
