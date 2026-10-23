@@ -24,10 +24,10 @@ application:
         - /*
       do:
         - src: file:///lzcapp/pkg/content/lazycat-injects/lzc-file-chooser-inject.js
-
 services:
   better-status-page:
     # ghcr.io/belluu/better-status-page:0.6.0
+    # upstream: ghcr.io/belluu/better-status-page:0.6.0
     image: ghcr.1ms.run/belluu/better-status-page:0.6.0
     environment:
       - NODE_ENV=production
