@@ -1,5 +1,5 @@
 package: community.lazycat.app.better-status-page
-version: 0.7.0
+version: 0.8.0
 name: BetterStatusPage
 description: A self-hosted status page that does not make you cry, with monitors, incidents and public status views
 min_os_version: 1.5.0
